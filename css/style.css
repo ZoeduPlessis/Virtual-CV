@@ -395,3 +395,14 @@ img{
     border-bottom:1px solid #F4DCE6;
 
 }
+/* Icons inside Skills */
+
+.skill-card i{
+
+    color:#E78FB3;
+
+    width:28px;
+
+    text-align:center;
+
+}
