@@ -82,6 +82,7 @@ img{
 
 .container{
 
+    width:90%;
     max-width:1200px;
     margin:auto;
 
@@ -271,25 +272,15 @@ img{
 
 }
 
-/* ==========================================
-   ABOUT
-========================================== */
+/***********************************
+            ABOUT
+************************************/
 
 .about{
 
-    background:#FFF9FC;
+    padding:100px 10%;
 
-}
-
-.section-title{
-
-    text-align:center;
-
-    font-size:2.5rem;
-
-    margin-bottom:50px;
-
-    color:var(--primary-dark);
+    background:#FFF8FC;
 
 }
 
@@ -297,17 +288,17 @@ img{
 
     background:white;
 
-    border-radius:25px;
-
-    padding:50px;
-
-    box-shadow:var(--shadow);
-
     max-width:900px;
 
     margin:auto;
 
-    transition:.3s;
+    padding:45px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.3s ease;
 
 }
 
@@ -323,7 +314,21 @@ img{
 
     line-height:2;
 
+    color:#555;
+
     text-align:center;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    font-size:2.7rem;
+
+    color:#E78FB3;
+
+    margin-bottom:50px;
 
 }
 
