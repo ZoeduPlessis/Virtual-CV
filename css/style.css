@@ -270,3 +270,59 @@ img{
     background:var(--primary-light);
 
 }
+
+/* ==========================================
+   ABOUT
+========================================== */
+
+.about{
+
+    background:#FFF9FC;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    font-size:2.5rem;
+
+    margin-bottom:50px;
+
+    color:var(--primary-dark);
+
+}
+
+.about-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:50px;
+
+    box-shadow:var(--shadow);
+
+    max-width:900px;
+
+    margin:auto;
+
+    transition:.3s;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.about-card p{
+
+    font-size:1.1rem;
+
+    line-height:2;
+
+    text-align:center;
+
+}
