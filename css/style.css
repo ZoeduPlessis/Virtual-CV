@@ -664,3 +664,78 @@ img{
     color:#777;
 
 }
+
+/***********************************
+            CONTACT
+************************************/
+
+.contact{
+
+    background:#FFF8FC;
+
+    padding:100px 10%;
+
+}
+
+.contact-card{
+
+    max-width:800px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-card p{
+
+    margin-bottom:35px;
+
+    font-size:1.1rem;
+
+}
+
+.contact-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.contact-info a,
+.location{
+
+    text-decoration:none;
+
+    color:#444;
+
+    font-size:1.1rem;
+
+    transition:.3s;
+
+}
+
+.contact-info a:hover{
+
+    color:#E78FB3;
+
+}
+
+.contact-info i{
+
+    color:#E78FB3;
+
+    margin-right:12px;
+
+}
