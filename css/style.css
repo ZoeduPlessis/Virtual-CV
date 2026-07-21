@@ -598,3 +598,69 @@ img{
     gap:15px;
 
 }
+
+/***********************************
+        CERTIFICATIONS
+************************************/
+
+.certifications{
+
+    background:#FFEFF6;
+
+    padding:100px 10%;
+
+}
+
+.certifications-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.certificate-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.certificate-card i{
+
+    font-size:2rem;
+
+    color:#E78FB3;
+
+    margin-bottom:20px;
+
+}
+
+.certificate-card h3{
+
+    margin-bottom:10px;
+
+}
+
+.certificate-card p{
+
+    color:#777;
+
+}
