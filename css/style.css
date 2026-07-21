@@ -406,3 +406,93 @@ img{
     text-align:center;
 
 }
+
+/***********************************
+          EDUCATION
+************************************/
+
+.education{
+
+    background:#FFF8FC;
+
+    padding:100px 10%;
+
+}
+
+.timeline{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:20px;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:#F7B6D2;
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    margin-bottom:50px;
+
+    padding-left:70px;
+
+}
+
+.timeline-item::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:8px;
+
+    top:10px;
+
+    width:24px;
+
+    height:24px;
+
+    background:#E78FB3;
+
+    border-radius:50%;
+
+}
+
+.timeline-content{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.timeline-content span{
+
+    color:#E78FB3;
+
+    font-weight:600;
+
+}
