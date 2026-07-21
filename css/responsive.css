@@ -1,0 +1,22 @@
+/* ==========================
+   TABLETS & SMALL LAPTOPS
+========================== */
+
+@media (max-width: 992px) {
+
+    section {
+        padding: 80px 5%;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
