@@ -1,0 +1,88 @@
+/* ==========================================
+   GOOGLE FONTS
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap');
+
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ==========================================
+   ROOT VARIABLES
+========================================== */
+
+:root{
+
+    --background:#FFF9FC;
+    --white:#FFFFFF;
+
+    --primary:#F7C6D9;
+    --primary-dark:#E89AB6;
+    --primary-light:#FFE8F1;
+
+    --text:#444444;
+    --heading:#2D2D2D;
+
+    --shadow:0 10px 30px rgba(232,154,182,.18);
+
+    --border-radius:20px;
+
+}
+
+/* ==========================================
+   GLOBAL
+========================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+    background:var(--background);
+    color:var(--text);
+    line-height:1.6;
+
+}
+
+section{
+
+    padding:100px 10%;
+
+}
+
+h1,h2,h3,h4{
+
+    font-family:'Poppins',sans-serif;
+    color:var(--heading);
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+.container{
+
+    max-width:1200px;
+    margin:auto;
+
+}
