@@ -86,3 +86,62 @@ img{
     margin:auto;
 
 }
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+.navbar{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 10%;
+
+    background:rgba(255,255,255,.90);
+
+    backdrop-filter:blur(10px);
+
+    position:sticky;
+    top:0;
+
+    z-index:1000;
+
+    box-shadow:var(--shadow);
+
+}
+
+.logo{
+
+    font-family:'Poppins',sans-serif;
+    font-size:1.5rem;
+    font-weight:700;
+
+    color:var(--primary-dark);
+
+}
+
+.nav-links{
+
+    display:flex;
+    gap:30px;
+
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    color:var(--heading);
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary-dark);
+
+}
