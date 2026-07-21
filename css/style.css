@@ -326,3 +326,67 @@ img{
     text-align:center;
 
 }
+
+/* ==========================================
+   SKILLS
+========================================== */
+
+.skills{
+
+    background:#FFEFF6;
+
+}
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.skill-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.skill-card h3{
+
+    color:var(--primary-dark);
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+}
+
+.skill-card ul{
+
+    list-style:none;
+
+}
+
+.skill-card li{
+
+    padding:10px 0;
+
+    border-bottom:1px solid #F4DCE6;
+
+}
